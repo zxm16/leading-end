@@ -1,0 +1,124 @@
+/*body{*/
+/*    background-color: pink;*/
+/*}*/
+
+/*p{*/
+/*    width: 150px;*/
+/*    padding: 10px;*/
+/*    background-color: aqua;*/
+/*}此为设置网页背景颜色代码*/
+
+/*body{*/
+/*    background-image: url("1.jpg");*/
+/*}给整个网页添加图片*/
+
+/*p{*/
+/*    width: 20px;*/
+/*    padding: 50px;*/
+/*    background-image: url("1.jpg");*/
+/*}单独给p标签加图片*/
+
+/*body{*/
+/*    background-image: url("2.jpg");*/
+/*    background-repeat: no-repeat;//使图片重复或不重复或沿x轴或y轴*/
+/*    background-position: right top ;//控制图片向上下左右中间移动*/
+/*    right代表right和center所以会从中间显示*/
+/*}*/
+
+/*body{*/
+/*    background-image: url("2.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;//会随着滚动而滚动*/
+/*}*/
+
+/*body{*/
+/*    color: #ff37de;*/
+/*}*/
+/*p{*/
+/*    color: aqua;*/
+/*}//对显示的文本进行字体着色可全局可指定*/
+
+/*p{*/
+/*    color: purple;*/
+/*    text-align: right;//字体对其方式左右居中*/
+/*}*/
+
+/*h3{*/
+/*    color: purple;*/
+/*    text-indent: 1em;//可用百分比也可用~em同~px*/
+/*}*/
+/*p{*/
+/*    color: pink;*/
+/*}//进行首行字母缩进*/
+
+/*#p1{*/
+/*    text-transform: capitalize;//把所有单词首字母进行大写*/
+/*}*/
+/*#p2{*/
+/*    text-transform: lowercase;//将所有字母进行小写*/
+/*}*/
+/*#p3{*/
+/*    text-transform: uppercase;//将所有字母进行大写*/
+/*}*/
+/*//css文本展示*/
+
+/*p{*/
+/*    text-shadow: 5px//向左右 2px//向上下 1px//字体大小 #ff0000;*/
+/*}//给文本加阴影*/
+
+
+
+/*p{*/
+/*    width: 100px;*/
+/*    !*不规定宽度无法换行有多宽就会在到达宽度后进行*/
+/*      换行特别注意是英文换行不会将完整单词进行拆分*!*/
+/*    text-wrap: normal;*/
+/*}//规定宽度进行换行*/
+
+
+
+/*p{*/
+/*    font-family: "Calibri Light";*/
+/*}*/
+/*p{*/
+/*    font-size: x-large;*/
+/*}*/
+
+/*p{*/
+/*    font-size: larger;*/
+/*    font-family: "fantasy";//自定义字体*/
+/*}*/
+/*@font-face {*/
+/*    font-family: myfont;*/
+/*    src: url();//引用自己下载好的字体得把自己的字体*/
+/*                上传到服务器中有些字体非法引用时要慎重*/
+/*}*/
+/*div{*/
+/*    font-family: myfont;*/
+/*}//更改字体大小加粗风格和变形*/
+
+
+
+/*a:link{*/
+/*    color: black;//点前*/
+/*}*/
+/*a:visited{*/
+/*    color: pink;//点后*/
+/*}*/
+/*a:hover{*/
+/*    color: purple;//放在上面时*/
+/*}*/
+/*a:active{*/
+/*    color: aqua;//点击时那一刻*/
+/*}//链接点击前后变化*/
+
+/*a:link{*/
+/*    color: aqua;*/
+/*    text-decoration: none;//去掉下划线*/
+/*}*/
+
+/*a:link{*/
+/*    color: aqua;*/
+/*    text-decoration: none;*/
+/*    background-color: purple;//加背景颜色*/
+/*}//链接的处理*/
