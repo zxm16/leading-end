@@ -1,0 +1,101 @@
+/*li strong{*/
+/*    color: pink;*/
+/*}*/
+/*strong{*/
+/*    color: chartreuse;*/
+/*}*/
+
+
+
+/*#pid {*/
+/*    color: brown;*/
+/*}*/
+/*#pid a{*/
+/*    color: brown;*/
+/*}*/
+
+
+/*.pclass a{*/
+/*    color: pink;*/
+/*}*/
+/*.divclass{*/
+/*    color: aqua;*/
+/*}*/
+/*.pclass{*/
+/*    color: cornflowerblue;*/
+/*}*/
+/*.divclass p{*/
+/*    color: purple;*/
+/*}//css类选择器*/
+
+
+
+/*td{*/
+/*    padding: 200px;//直接设置高宽等长的内边距*/
+/*    padding-left: 100px;*/
+/*    padding-right: 200px;*/
+/*    padding-bottom: 300px;*/
+/*    padding-top: 50px;//分别设置内边距*/
+/*}*/
+
+/*p{*/
+/*    !*border-style: dashed;//直接设置上下左右一样的边框样式*!*/
+/*    border-left-style: solid;*/
+/*    border-right-style: dot-dash;*/
+/*    border-bottom-style: inset;*/
+/*    border-top-style: inherit;//分别设置边框样式*/
+/*    border-width: 3px;*/
+/*    border-color: cornflowerblue;*/
+/*}//设置边框效果*/
+
+/*p{*/
+/*    border-radius: 10px;*/
+/*    width: 100px;*/
+/*    height: 50px;*/
+/*    background-color: pink;*/
+/*    text-align: center;*/
+/*    border: 2px solid wheat;*/
+/*}*/
+/*.cssid{*/
+/*    background-color: pink;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    text-align: center;*/
+/*    box-shadow: 10px 10px 5px wheat;*/
+/*}*/
+/*p{*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    text-align: center;*/
+/*    border-image-source: url("2.png") ;*/
+/*    border: 3px solid wheat;*/
+/*}*/
+
+/*body{*/
+/*    margin: 0;*/
+/*}*/
+
+/*.mg{*/
+/*    background-color: wheat;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    text-align: center;*/
+/*    margin-top: 100px;*/
+/*}*/
+
+
+/*body{*/
+/*    margin: 0;*/
+/*}*/
+/*.container{*/
+/*    margin: 100px;*/
+/*}*/
+/*.bd{*/
+/*    border-style: solid;*/
+/*}*/
+/*.pd{*/
+/*    padding: 100px;*/
+/*}*/
+/*.content{*/
+/*    background-color: pink;*/
+/*}//盒子模型*/
