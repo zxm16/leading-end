@@ -1,0 +1,65 @@
+/*#fd{*/
+/*    width: 100px;*/
+/*    height:100px;*/
+/*    background-color: pink;*/
+/*    float: right;*/
+/*}*/
+/*#sd{*/
+/*    width: 150px;*/
+/*    height: 100px;*/
+/*    background-color: wheat;*/
+/*}*/
+/*#td{*/
+/*    width: 100px;*/
+/*    height:100px;*/
+/*    background-color: cornflowerblue;*/
+/*}//向右浮动展示*/
+
+
+/*#fd{*/
+/*    width: 100px;*/
+/*    height:100px;*/
+/*    background-color: pink;*/
+/*    float: left;*/
+/*}*/
+/*#sd{*/
+/*    width: 150px;*/
+/*    height: 100px;*/
+/*    background-color: wheat;*/
+/*    float: left;*/
+/*}*/
+/*#td{*/
+/*    width: 100px;*/
+/*    height:100px;*/
+/*    background-color: cornflowerblue;*/
+/*    float: left;*/
+/*}//都向左浮动*/
+
+
+#fd{
+    width: 100px;
+    height:100px;
+    background-color: pink;
+    float: left;
+}
+#sd{
+    width: 150px;
+    height: 100px;
+    background-color: wheat;
+    float: left;
+}
+#td{
+    width: 100px;
+    height:100px;
+    background-color: cornflowerblue;
+    float: left;
+}
+#container{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+}
+#text{
+    clear: left;
+}
+/*//去掉浮动的效果*/
