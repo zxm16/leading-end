@@ -1,0 +1,52 @@
+/*#position1{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: pink;*/
+/*    position:relative;*/
+/*    left: 100px;*/
+/*    top: 20px;*/
+/*}//相对布局*/
+
+/*#position1{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: pink;*/
+/*    position:absolute;*/
+/*    left: 20px;*/
+/*}//绝对布局*/
+
+/*#position1{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: pink;*/
+/*    position: fixed;*/
+/*    left: 20px;*/
+/*}//固定*/
+
+/*#position1{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: pink;*/
+/*    position: static;*/
+/*    left: 20px;*/
+/*    }  //当是static的时候偏移量是对它没有任何效果的*/
+
+
+#position1{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    }
+#position2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    z-index: 2;
+    }
