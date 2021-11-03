@@ -1,0 +1,42 @@
+/*p{*/
+/*    color: aqua;*/
+/*}*/
+
+
+/*h1,h2{*/
+/*    color: aqua;*/
+/*}*/
+
+/**{*/
+/*    color: cornflowerblue;*/
+/*}*/
+/*//  如果没有指定颜色那么都用通配符设置的规格*/
+/*h1,h2{*/
+/*    font-size: 20px;*/
+/*}*/
+
+
+
+/*divid{*/
+/*    color: cornflowerblue;*/
+/*}*/
+/*a.divid{*/
+/*    color: cornflowerblue;*/
+/*}*/
+
+
+/*.p1{*/
+/*    color: pink;*/
+/*}*/
+/*.p2{*/
+/*    font-size: larger;*/
+/*}*/
+/*.p1.p2{*/
+/*    font-style: italic;*/
+/*}*/
+
+
+
+/*#divid{*/
+/*    color: blue;*/
+/*}*/
