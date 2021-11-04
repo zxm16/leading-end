@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+/*.div{*/
+/*    width: 70%;*/
+/*    height: 20000px;*/
+/*    background-color: cornflowerblue;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}//margin的使用*/
+
+/*.div{*/
+/*    width: 70%;*/
+/*    height: 20000px;*/
+/*    background-color: cornflowerblue;*/
+/*    position: absolute;*/
+/*    right: 0px;//绝对居右对齐*/
+/*}*/
+/*.div{*/
+/*    width: 70%;*/
+/*    height: 20000px;*/
+/*    background-color: cornflowerblue;*/
+/*    position: absolute;*/
+/*    left: 0px;//绝对居左对齐*/
+/*}*/
+
+/*.div{*/
+/*    width: 70%;*/
+/*    height: 20000px;*/
+/*    background-color: cornflowerblue;*/
+/*    float: left;//利用float进行向左向右对齐*/
+/*}*/
+
+.div{
+    width: 70%;
+    height: 20000px;
+    background-color: cornflowerblue;
+    margin: 0px auto;//前面的0px表示上下间距后面表示左右
+}
