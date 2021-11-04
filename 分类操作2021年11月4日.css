@@ -1,0 +1,46 @@
+/*p{*/
+/*    width: 50px;*/
+/*}*/
+
+/*.p1{*/
+/*    width: 50px;*/
+/*    line-height: normal;*/
+/*}*/
+/*.p2{*/
+/*    width: 50px;*/
+/*    line-height:200%;*/
+/*}*/
+/*.p3{*/
+/*    width: 50px;*/
+/*    line-height:50%;*/
+/*}行高越高每一行间距越开，行高越低即低于100%就会挤在一起*/
+
+/*.p1{*/
+/*    line-height: normal;*/
+/*    max-width: 300px;*/
+/*}*/
+/*.p2{*/
+/*    width: 50px;*/
+/*    line-height:200%;*/
+/*}*/
+/*.p3{*/
+/*    width: 50px;*/
+/*    line-height:50%;*/
+/*}展示行距*/
+
+
+
+/*p{*/
+/*    cursor: alias;*/
+/*}改变鼠标指针图案*/
+
+/*li{*/
+/*    display: inline;*/
+/*}*/
+/*适用于表里即ul可将表里的每一列都放着同一列上常用于导航栏中*/
+
+li{
+    display: inline;
+    visibility: hidden;
+}
+/*设置元素是否可见或不可见*/
