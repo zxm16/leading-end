@@ -1,0 +1,38 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+/*动画的2D转换主要结构是tranform：标签（）;*/
+
+/*.div2{*/
+/*    transform: translate(200px,200px);//translate标签是用来对div的移动前面的数值是：x轴移动距离，y轴移动距离。*/
+/*    -webkit-transform: translate(200px,200px);//-webkit-作用是指定浏览器，其用于Safari和chrome*/
+/*    -ms-transform: translate(200px,200px);//-ms-作用是指定浏览器，其用于IE*/
+/*    -o-transform: translate(200px,200px);//-o-作用是指定浏览器，其用于opera*/
+/*    -moz-transform: translate(200px,200px);//-o-作用是指定浏览器，其用于Firefox*/
+/*}*/
+
+/*.div2{*/
+/*    transform: rotate(150deg);//rotate标签主要是用来对div的旋转，后面带的是所旋转的角度为（角度deg）*/
+/*}*/
+
+/*.div2{*/
+/*    margin-top: 200px;*/
+/*    transform:scale(1,2);//scale标签是用来对div的长宽进行缩放（长的倍数，高的倍数）。*/
+/*}*/
+
+/*.div2{*/
+/*    transform: skew(50deg,50deg);*/
+/*}*/
+
+/*.div2{*/
+/*    transform: matrix(0.7,0.7,-0.7,0.7,0,0);//用6个属性值对div进行旋转，缩放，移动以及倾斜。*/
+/*}*/
+
+/*动画的3D转换主要结构是tranform：标签（）;*/
+
+.div2{
+    transform: rotateX(100deg);
+}
