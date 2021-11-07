@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+/*//相当布局不影响占位的操作*/
+    animation: anim 5s infinite alternate;
+    /*infinite alternate意思是一直循环*/
+}
+
+@keyframes  anim{
+    0%{
+        background-color: pink;
+        left: 0px;
+        top:0px
+    }
+    25%{
+        background-color: hotpink;
+        left: 100px;
+        top: 0px
+    }
+    50%{
+        background-color: deeppink;
+        left: 100px;
+        top: 100px
+    }
+    75%{
+        background-color: magenta;
+        left: 0px;
+        top: 100px
+    }
+    100%{
+        background-color: orchid;
+        left: 0px;
+        top: 0px
+    }
+}
