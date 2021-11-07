@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+    width: 270px;
+    text-align: center;
+}
+a:link,visited {
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    width: 80px;
+    text-align: center;
+    font-weight:bold;
+}
+a:visited{
+    color: wheat;
+}
+a:hover{
+    background-color: bisque;
+}
+li{
+    display: inline;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
