@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    transition: width 2s,height 2s,transform 2s;
+    transition-delay: 2s;
+}
+div:hover{
+    width: 100px;
+    height: 100px;
+    transform: rotate(70deg);
+}
