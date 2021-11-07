@@ -1,0 +1,5 @@
+.div3{
+    column-count: 3;
+    column-gap: 70px;
+    column-rule: 5px outset pink;
+}
