@@ -1,0 +1,8 @@
+.container{
+    column-width: 250px;
+    column-gap: 5px;
+}
+.container div{
+    width: 250px;
+    margin: 5px 0;
+}
