@@ -67,7 +67,8 @@ li{
     width: 100px;
     height: 26px;
     position: relative;
-   margin: 20px 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     margin-right: 80px;
 }
 form input{
@@ -79,4 +80,17 @@ form input{
     text-align: center;
     font-size: 10px;
     color: orchid;
+}
+.body{
+    width: auto;
+    height: auto;
+}
+.body_title h3{
+    text-align: center;
+    font-size: 30px;
+    font-family:Arial;
+}
+.body_title p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
