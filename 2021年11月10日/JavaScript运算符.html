@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+</head>
+<body>
+<p>i=10,g=3,i+g=?</p>
+<p id="sumid"></p>
+<button onclick="mysum()">结果</button>
+  <script>
+      //算数运算符
+      function mysum(){
+          var i=10;
+          var g=3;
+          var m=i+g;
+          document.getElementById("sumid").innerHTML=m;
+      }
+
+      //赋值运算符
+      var h=10;
+      var l=++h;//赋值运算符，++在前面是先运算再赋值，++在后面是先赋值再运算，同样--跟加加是一样的。
+      document.write(l);
+
+      var o1=10;
+      var o2=9;
+      o2/=3;
+      o1+=3;
+      document.write(o1,o2);//运算符+=，-=。
+
+
+
+      //字符串操作
+      var k='我是你爸爸';
+      var j='对吗?';
+      m=k+j;
+      document.write(m);
+
+
+      //比较运算符
+      var k1=10;
+      var k2=2;
+      document.write(k1==k2);
+      document.write(k1<k2);
+      document.write(k1>k2);
+      document.write(k1>=k2);
+      document.write(k1>=k2);//进行比较回归的值都是bool值
+      var k3=10;
+      var k4='10';
+      document.write(k3==k4);//双等如果比较的是数字和字符串的话会比较本值是否与数字一样如果哦一样还是会回归true值
+      document.write(k3===k4);//三等不管字符串中的值是否和数字一样回归的值都是false
+      document.write(k3!==k4);//同双等和三等一样
+
+
+      //逻辑运算符
+      var  k5=50;
+      document.write(k5>=49&&k5<=70);
+      document.write(k5>=60&&k5<=70);//与门得两个条件全部满足才能返回true值。
+      document.write(k5<=49||k5<=100);//或门只要一个条件瞒足就可以返回true值。
+      document.write(!(k5>=49&&k5<=70));//非是取反
+
+      //条件运算符（三目运算符）
+      var k6=11;
+      document.write(k6>10?'k6大于10':'k6小于10');//问号后面是：（条件？满足条件输出的结果：不满足条件输出的结果）
+
+  </script>
+</body>
+</html>
