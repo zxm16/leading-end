@@ -1,0 +1,105 @@
+/*小米商城顶部搭建*/
+.top_web{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+}
+.warp{
+    width: 1226px;
+    margin: 0 auto;
+}
+.top_web span{
+    color:#333;
+    margin: 0 6px;
+}
+.top_web li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.top_web a{
+    color:#b0b0b0 ;
+    font-size:12px;
+    text-decoration: #333333;
+}
+.cart{
+    position:absolute;
+    top:-12px;
+    width: 120px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: #424242;
+    text-align: center;
+    cursor: pointer;
+}
+.cart-list{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 316px;
+    height: 0;
+    overflow: hidden;
+    line-height: 100px;
+    background-color: #ffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    transition: height 2s;
+}
+.downLode{
+    width: 124px;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -62px;
+    display: none;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    transition: height 2s;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom:10px solid #ffffff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 20px;
+    display: none;
+    transition: height 2s;
+}
+.cart-list h5{
+    color: #333333;
+}
+.cart:hover{
+    background-color: aliceblue;
+}
+.cart:hover a{
+    color: #ff6700;
+}
+.cart:hover > .cart-list{
+    height: 100px;
+    display: block;
+}
+.head_left>li:hover > .downLode{
+    height: 148px;
+    display: block;
+}
+.head_left>li:hover > .triangle{
+    display: block;
+}
+.head_left{
+    float: left;
+}
+.head_right{
+    float: right;
+}
+
+
+
+
