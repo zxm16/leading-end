@@ -1,0 +1,73 @@
+.nav{
+    width: auto;
+    height:100px;
+    background-color: pink;
+    position: relative;
+    top:40px;
+}
+.warp_nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    width:56px;
+    height: 56px;
+    background-color: orangered;
+    margin-left: 32px;
+    position: relative;
+    top: 22px;
+}
+.nav_bar{
+    width: 850px;
+    height: 100px;
+    background-color: mediumseagreen;
+    margin-left: 102px;
+    position: relative;
+    top: -72px;
+}
+.search_bar{
+    width: 250px;
+    height: 50px;
+    background-color: gray;
+    position: absolute;
+    top: 22px;
+    right:122px;
+}
+.nav_bar>ul>li{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+    line-height: 100px;
+    padding: 0 10px;
+}
+.nav_bar a{
+    color: #333333;
+    text-decoration: none;
+}
+.nav_bar a:hover{
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
