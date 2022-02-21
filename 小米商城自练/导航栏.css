@@ -1,37 +1,44 @@
 .nav{
+    position: relative;
     width: auto;
     height:100px;
-    background-color: pink;
-    position: relative;
-    top:40px;
+    background-color: white;
+   top: -16px;
 }
 .warp_nav{
-    width: 1200px;
+    width: 1226px;
     margin: 0 auto;
 }
 .logo{
     width:56px;
     height: 56px;
     background-color: orangered;
-    margin-left: 32px;
-    position: relative;
-    top: 22px;
+    position: absolute;
+    top: 20px;
+    left: 179px;
 }
 .nav_bar{
     width: 850px;
     height: 100px;
-    background-color: mediumseagreen;
-    margin-left: 102px;
-    position: relative;
-    top: -72px;
+    background-color:white;
+    margin-left: 96px;
 }
 .search_bar{
-    width: 250px;
+    width: 200px;
     height: 50px;
     background-color: gray;
     position: absolute;
-    top: 22px;
-    right:122px;
+    top: 20px;
+    right: 219px;
+}
+.nav_guide01{
+    width: 100%;
+    height: 0;
+    background-color:white;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    box-shadow: 0 3px 4px rgba(0,0,0,.18);
 }
 .nav_bar>ul>li{
     list-style: none;
@@ -44,9 +51,40 @@
     color: #333333;
     text-decoration: none;
 }
-.nav_bar a:hover{
+.nav_bar a:hover {
     color: orangered;
 }
+.nav_bar li:hover>.nav_guide01{
+    height: 229px;
+}
+
+.nav_guide01_warp{
+    width: 1226px;
+    margin: 0 auto;
+}
+.nav_guide01_list01{
+    width: auto;
+    height: 229px;
+    background-color:greenyellow;
+    position: absolute;
+}
+.nav_guide01_list01 li{
+    width: 170px;
+    height:229px;
+    background-color: blue;
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+    border-right: 1px solid #e0e0e0;
+    z-index: 999;
+    /*display: none;*/
+}
+/*.nav_bar li:hover>.nav_guide01_list01{*/
+/*    display: block;*/
+/*}*/
+
+
+
 
 
 
